@@ -1,0 +1,477 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+html{
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+}
+i{
+    cursor: pointer;
+    color: rgb(207, 204, 204);
+}
+.yellowgreen{
+    color: #ECB602;
+}
+.btn-success{
+    background: #ECB602 !important;
+}
+.btn-success:hover{
+    background: #343A40 !important;
+}
+header{
+    width: 100%;
+    position: relative;
+    background-image: url(header3.jpg);
+    height: 100vh;
+    background-size: cover;
+    transition: .5s;
+}
+.container-fluid{
+    position: fixed;
+    z-index: 10;
+}
+.navbar{
+    background: white;
+    top: 1rem;
+    border-radius: 10px;
+    z-index: 10;
+    border: 1px solid rgb(224, 223, 223);
+    
+}
+.navbar button{
+    position: absolute;
+    right: 2rem;
+    top: 0.8rem;
+}
+.navbar button i{
+    color: black;
+}
+
+.collapse{
+    margin: auto;
+    justify-content: space-evenly;
+    
+}
+.navbar-nav li{
+    margin: 0 2em 0 2em;
+}
+.navbar-nav li a{
+    color: black;
+}
+.navbar-brand{
+    margin-left: 1%;
+    color: black;
+    font-weight: 600;
+}
+.navbar-brand:hover{
+    color: black;
+}
+/* Menu link hover effect */
+
+.collapse ul li::after{
+    content: '';
+    display: block;
+    width: 0;
+    height: 4px;
+    border-radius: 3px;
+    background: #ECB602 !important;
+    transition: width .5s;
+    text-align: center;
+}
+.collapse ul li:hover::after{
+    width: 100%;
+    transition: width .5s;
+}
+
+
+.header-content{
+    position: relative;
+    color: white;
+    top: 40%;
+}
+.header-content h1{
+    font-size: 50px;
+}
+.header-content h6{
+    margin: 25px 0px 25px 0px;
+    letter-spacing: 0.04cm;
+}
+
+.author-row{
+    grid-column-gap: 0.5rem;
+}
+.author-col img{
+    width: 200px;
+    height: 250px;
+}
+.container hr{
+    margin-bottom: 50px;
+}
+.author-col{
+    margin-bottom: 20px;
+    background: #ECB602;
+    padding-top: 2rem;
+}
+.author-container{
+    padding: 2rem 1rem 2rem 1rem;
+    margin-bottom: 50px;
+}
+.intro-container{
+    margin: 100px 0 100px 0;
+}
+.main-start .col-sm img{
+    border: none;
+    width: 100%;
+    height: 300px;
+}
+.main-start .text-column{
+    margin-left: -200px;
+    background: white;
+    margin-top: 140px;
+    padding: 2rem;
+}
+.main-start .text-column p{
+    font-size: 10px;
+}
+
+
+.recommend-section{
+    margin-bottom: 3rem;
+}
+.recommend-book{
+    border: 1px solid rgb(224, 222, 222);
+    padding: 2rem;
+    margin: 1rem;
+    column-gap: 2rem;
+}
+.rec-sec-img img{
+    width: 200px;
+    height: 250px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    margin-bottom: 2rem;
+    transition: .5s;
+}
+.rec-sec-info{
+    position: relative;
+}
+/* STar Rating */
+.star-rating{
+    cursor: pointer;
+}
+
+
+.rec-sec-info p{
+    font-size: 15px;
+}
+.book-filters{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+.dropdown-btn{
+    margin-bottom: 1rem;
+
+}
+.dropdown-toggle{
+    width: 200px;
+    border-radius: 50px !important;
+}
+.book-collection{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background: #f6f8fa;
+    margin: 2rem 0 2rem 0;
+    transition: .5s;
+}
+.book-card{
+    text-align: center;
+    height: auto;
+    margin: auto;
+    justify-content: center;
+    padding: 1rem;
+    margin: 2rem 0 2rem 0;
+    background: white;
+    transition: .5s;
+    
+}
+.book-image{
+    margin-bottom: 1rem;
+}
+.book-image img{
+    width: 150px;
+    height: 200px;
+    margin: auto;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+
+}
+.book-info h6{
+    font-size: 10px;
+}
+.btn-success{
+    width: 150px;
+}
+.qualities{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+
+}
+.quality1{
+    text-align: center;
+    margin: 2rem;
+    width: 25%;
+}
+
+.quality1 img{
+    height: 80px;
+    width: 80px;
+    border-radius: 50%;
+    margin: 1rem;
+    object-fit: cover;
+}
+.quality1 h5{
+    font-size: 12px;
+}
+.achievement1{
+    width: 20%;
+    height: 100px;
+    padding: 1rem;
+    box-shadow: 1px 1px 5px rgba(190, 187, 187, 0.5);
+    margin: 2rem;
+}
+
+/* Testimonial grid */
+.testimonial-grid{
+    background: #f6f8fa;
+    padding: 3rem 0 3rem 0;
+    margin: 2rem 0 2rem 0;
+}
+.review{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    width: 80%;
+    border: 1px solid rgb(114, 112, 112);
+    padding: 1rem;
+}
+
+.review1{
+    margin-left: 20px;
+}
+.review2{
+    margin-right: 20px;
+}
+.review3{
+    margin-left: 20px;
+}
+.review .profile{
+    width: 30%;
+    margin: auto;
+}
+.review .profile h6{
+    font-size: 12px;
+    line-height: 0;
+    margin-top: 1rem;
+}
+.review .profile img{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.review .feedback{
+    width: 70%;
+}
+.review .feedback p{
+    font-size: 13px;
+    margin-top: 1rem;
+}
+
+/* Footer */
+
+footer{
+    background: #ECB602;
+    padding: 3rem 0 3rem 0;
+}
+.sr-only{
+    background: #ECB602;
+}
+.footer-sections{
+    margin: auto;
+    justify-content: center;
+}
+.footer-links a{
+    display: block;
+    font-size: 12px;
+    color: black;
+    margin: 1rem;
+
+}
+.footer-links a:hover{
+    color: rgb(48, 47, 47);
+    text-decoration: none;
+}
+.footer-books{
+    display: flex;
+}
+.footer-books img{
+    width: 100px;
+    height: 140px;
+    margin: 0 1rem 0 1rem;
+}
+h6.copyright{
+    font-size: 12px;
+}
+
+ /* Media Queries */
+@media only screen and (max-width: 1050px){
+    .row-img-info{
+        margin: 0;
+        padding: 2rem;
+    }
+    .achievement1 h1{
+        font-size: 30px;
+    }
+    .achievement1 h6{
+        font-size: 15px;
+    }
+}
+@media only screen and (max-width: 991px){
+    .rec-sec-info p{
+        font-size: 10px;
+    }
+    .rec-sec-img img{
+        height: 200px;
+        width: 150px;
+    }
+}
+@media only screen and (max-width: 900px){
+    header{
+        height: 70vh;
+    }
+    .header-content h1{
+        font-size: 40px;
+        padding: 1rem;
+    }
+    .achievement1 h1{
+        font-size: 25px;
+    }
+}
+@media only screen and (max-width: 900px){
+    .footer-books{
+        display: none;
+    }
+}
+@media only screen and (max-width: 768px){
+    .rec-sec-img img{
+        height: 200px;
+        width: 120px;
+    }
+}
+@media only screen and (max-width: 700px){
+    .dropdown-btn .dropdown-item{
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 600px){
+    .main-start .text-column{
+        margin: 0;
+
+    }
+    .rec-sec-img img{
+        height: 200px;
+        width: auto;
+    }
+    .achievement1 h6{
+        font-size: 10px;
+    }
+    .achievement1{
+        margin: 0;
+        padding: 0.5rem;
+    }
+    .dropdown-btn .dropdown-item{
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 550px){
+    .review .feedback p{
+        font-size: 10px;
+        margin: 1rem;
+    }
+}
+@media only screen and (max-width: 500px){
+    header{
+        height: 70vh;
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .quality1{
+        width: 60%;
+    }
+    .review1, .review2, .review3{
+        margin: auto;
+    }
+    .review .profile img{
+        width: 40px;
+        height: 40px;
+        border-radius: 50%;
+        object-fit: cover;
+    }
+    .review .profile h6{
+        font-size: 8px;
+        line-height: 1;
+        margin: 0.2rem 0 0.2rem 0;
+    }
+    .author-container h2{
+        font-size: 25px;
+    }
+    .dropdown-btn .dropdown-item{
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: 0.5rem;
+    }
+}
+@media only screen and (max-width: 400px){
+    .achievement1 h1{
+        
+        font-size: 20px;
+    }
+    .achievement1{
+        width: 25%;
+        height: 80px;
+        word-wrap: break-word;
+}
+@media only screen and (max-width: 300px){
+    .header-content{
+        top: 30%;
+    }
+    .header-content h1{
+        font-size: 30px;
+    }
+    .dropdown-btn .dropdown-item{
+        font-size: 12px;
+        word-wrap: break-word;
+        padding: 0.5rem;
+    }
+    .achievement1{
+        width: 30%;
+    }
+    .author-container h2{
+        font-size: 25px;
+    }
+}

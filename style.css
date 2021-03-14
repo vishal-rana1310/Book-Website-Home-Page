@@ -113,12 +113,12 @@ header{
 }
 .author-col{
     margin-bottom: 20px;
-    background: #ECB602;
     padding-top: 2rem;
 }
 .author-container{
     padding: 2rem 1rem 2rem 1rem;
     margin-bottom: 50px;
+    background: #f6f8fa;
 }
 .intro-container{
     margin: 100px 0 100px 0;

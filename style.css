@@ -445,6 +445,13 @@ h6.copyright{
         word-wrap: break-word;
         padding: 0.5rem;
     }
+    .book-image img{
+        width: 220px;
+        height: 300px;
+        margin: auto;
+        box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.5);
+    
+    }
 }
 @media only screen and (max-width: 400px){
     .achievement1 h1{

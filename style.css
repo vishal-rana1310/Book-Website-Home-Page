@@ -557,11 +557,11 @@ h6.copyright{
     }
     .book-image img{
         width: 100%;
-        height: 180px;
+        height: 130px;
     
     }
     .btn-success{
-        width: 110px !important;
+        width: 100px !important;
     }
 }
 @media only screen and (max-width: 300px){
@@ -581,5 +581,13 @@ h6.copyright{
     }
     .author-container h2{
         font-size: 25px;
+    }
+    .book-image img{
+        width: 100%;
+        height: 120px;
+    
+    }
+    .btn-success{
+        width: 80px !important;
     }
 }

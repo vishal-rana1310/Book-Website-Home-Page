@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Must read Books</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -61,10 +62,10 @@
 
         <div class="container intro-container">
             <div class="row main-start">
-              <div class="col-sm text-center img-column">
+              <div class="col-sm text-center img-column" data-aos="fade-up">
                 <img src="book.jpg" alt="author-img">
               </div>
-              <div class="col-sm text-center text-column">
+              <div class="col-sm text-center text-column" data-aos="fade-up">
                 <h3 class="text-uppercase text-left">Books are a uniquely portable magic</h3>
                 <p class="text-uppercase text-left">Reading reduces stress. Reading about something you enjoy or losing yourself in a good novel is an excellent way to relax. It can ease tension in your muscles and heart while letting your brain wander to new ideas and live in someone else's shoes.</p>
               </div>
@@ -77,25 +78,45 @@
             <h2 class="text-center">Best Authors of All Time</h2>
             <hr>
             <div class="row author-row">
-              <div class="col-sm text-center author-col">
-                <img src="N_Hill.jpg" alt="author-img">
-                <h6>Napoleon Hill</h6>
-                <h6>Think and Grow Rich</h6>
+              <div class="col-sm-4 text-center author-col" data-aos="zoom-in">
+                <div class="author-img">
+                    <img src="N_Hill.jpg" alt="author-img">
+                </div>  
+                <div class="author-info">
+                    <h5>Napoleon Hill</h5>
+                    <h6>Think and Grow Rich</h6>
+                </div>
+                
               </div>
-              <div class="col-sm text-center author-col">
-                <img src="Robert_Kiyosaki.jpg" alt="author-img">
-                <h6>Robert Kiyosaki</h6>
-                <h6>Rich Dad Poor Dad</h6>
+              <div class="col-sm-4 author-col text-center" data-aos="zoom-in">
+                <div class="author-img">
+                    <img src="Robert_Kiyosaki.jpg" alt="author-img">
+                </div>
+            
+                <div class="author-info">
+                    <h5>Napoleon Hill</h5>
+                    <h6>Think and Grow Rich</h6>
+                </div>
               </div>
-              <div class="col-sm text-center author-col">
-                <img src="Coelhopaulo.jpg" alt="author-img">
-                <h6>Robert Kiyosaki</h6>
-                <h6>Rich Dad Poor Dad</h6>
+              <div class="col-sm-4 author-col text-center" data-aos="zoom-in">
+                <div class="author-img">
+                    <img src="Coelhopaulo.jpg" alt="author-img">
+                </div>
+                
+                <div class="author-info">
+                    <h5>Napoleon Hill</h5>
+                    <h6>Think and Grow Rich</h6>
+                </div>
               </div>
-              <div class="col-sm text-center author-col">
-                <img src="victor.jpg" alt="author-img">
-                <h6>Robert Kiyosaki</h6>
-                <h6>Rich Dad Poor Dad</h6>
+              <div class="col-sm-4 author-col text-center" data-aos="zoom-in">
+                <div class="author-img">
+                    <img src="victor.jpg" alt="author-img">
+                </div>
+               
+                <div class="author-info">
+                    <h5>Napoleon Hill</h5>
+                    <h6>Think and Grow Rich</h6>
+                </div>
               </div>
             </div>
           </div>
@@ -104,7 +125,7 @@
 
           <div class="container recommend-section" id="recommend">
             <h3 class="text-center my-2">We Recommend</h3>
-            <div class="row recommend-book">
+            <div class="row recommend-book" data-aos="fade-up">
               <div class="col-sm-3 rec-sec-img">
                 <img src="think-and-grow-rich1.jpg" alt="book-img">
               </div>
@@ -123,7 +144,7 @@
                <button class="btn btn-success">Read Now</button>
               </div>
             </div>
-            <div class="row recommend-book">
+            <div class="row recommend-book" data-aos="fade-up">
                 <div class="col-sm-3 rec-sec-img">
                   <img src="the-power-of-now.jpg" alt="book-img">
                 </div>
@@ -182,7 +203,7 @@
               
               <div class="book-card self-help nap-hill">
                   <div class="book-image">
-                      <img src="Fooled-by-Randomness.jpg">
+                      <img src="Fooled-by-Randomness.jpg" data-aos="flip-right">
                   </div>
                   <div class="book-info">
                     <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -193,7 +214,7 @@
               </div>
               <div class="book-card self-help adam-hunt">
                 <div class="book-image">
-                    <img src="mindsight.jpg">
+                    <img src="mindsight.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -204,7 +225,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="7-habits-of-highly-effective-people.png">
+                    <img src="7-habits-of-highly-effective-people.png" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -215,7 +236,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="The-48-Laws-of-Power.jpg">
+                    <img src="The-48-Laws-of-Power.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -226,7 +247,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="Whatcha-Gonna-Do-with-That-Duck-.jpg">
+                    <img src="Whatcha-Gonna-Do-with-That-Duck-.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -237,7 +258,7 @@
             </div>
             <div class="book-card self-help john-snow">
                 <div class="book-image">
-                    <img src="The-Psychedelic-Explorer’s-Guide.jpg">
+                    <img src="The-Psychedelic-Explorer’s-Guide.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -248,7 +269,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="the-attention-revolution.jpg">
+                    <img src="the-attention-revolution.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -259,7 +280,7 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="philosophy-for-life.jpeg">
+                    <img src="philosophy-for-life.jpeg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -270,7 +291,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="mans-search-for-meaning.jpg">
+                    <img src="mans-search-for-meaning.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -281,7 +302,7 @@
             </div>
             <div class="book-card business nap-hill">
                 <div class="book-image">
-                    <img src="feeling-good.jpg">
+                    <img src="feeling-good.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -292,7 +313,7 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="7-habits-of-highly-effective-people.png">
+                    <img src="7-habits-of-highly-effective-people.png" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Fooled-by-Randomness</h6>
@@ -303,7 +324,7 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="rework.jpg">
+                    <img src="rework.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Rework</h6>
@@ -314,7 +335,7 @@
             </div>
             <div class="book-card business adam-hunt">
                 <div class="book-image">
-                    <img src="100startup.jpg">
+                    <img src="100startup.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">The 100$ Startup</h6>
@@ -325,7 +346,7 @@
             </div>
             <div class="book-card web-dev nap-hill">
                 <div class="book-image">
-                    <img src="clean code.jpg">
+                    <img src="clean code.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Clean Code</h6>
@@ -336,7 +357,7 @@
             </div>
             <div class="book-card web-dev adam-hunt">
                 <div class="book-image">
-                    <img src="javas.jpg">
+                    <img src="javas.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Eloquent Javascript</h6>
@@ -347,7 +368,7 @@
             </div>
             <div class="book-card web-dev adam-hunt">
                 <div class="book-image">
-                    <img src="programatic.jpg">
+                    <img src="programatic.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">The Programatic Programmer</h6>
@@ -358,7 +379,7 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="0to1.jpg">
+                    <img src="0to1.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Zero to One</h6>
@@ -369,7 +390,7 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="rework.jpg">
+                    <img src="rework.jpg" data-aos="flip-right">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Zero to One</h6>
@@ -383,34 +404,17 @@
           <!-- Qualities Section -->
 
           <div class="container qualities">
-            <div class="quality1">
+            <div class="quality1" data-aos="fade-up">
                 <img src="09.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
             </div>
-            <div class="quality1">
+            <div class="quality1" data-aos="fade-up">
                 <img src="clock.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
             </div>
-            <div class="quality1">
+            <div class="quality1" data-aos="fade-up">
                 <img src="8774.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
-            </div>
-          </div>
-
-          <!-- Achievements -->
-
-          <div class="container qualities">
-            <div class="achievement1">
-                <h1 class="text-center" id="download"></h1>          
-                <h6 class="text-center">Total downloads</h6>
-            </div>
-            <div class="achievement1">
-                <h1 class="text-center" id="number1">253</h1>
-                <h6 class="text-center">Total sold</h6>
-            </div>
-            <div class="achievement1">
-                <h1 class="text-center" id="number3">253</h1>
-                <h6 class="text-center">Happy Readers</h6>
             </div>
           </div>
 
@@ -418,7 +422,7 @@
           <div class="container testimonial-grid" id="testimonial">
             <h3 class="text-center">Testimonials</h3>
             <hr>
-            <div class="review my-2 review1">
+            <div class="review my-2 review1" data-aos="fade-up">
                 <div class="profile text-center">
                     <img src="Coelhopaulo.jpg">
                     <h6 class="text-center">Adam Hunt</h6>
@@ -428,7 +432,7 @@
                     <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
                 </div>
             </div>
-            <div class="review my-2 review2">
+            <div class="review my-2 review2" data-aos="fade-up">
                 
                 
                 <div class="profile text-center">
@@ -440,7 +444,19 @@
                     <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
                 </div>
             </div>
-            <div class="review my-2 review3">
+            <div class="review my-2 review3" data-aos="fade-up">
+                <div class="profile text-center">
+                    <img src="victor.jpg">
+                    <h6 class="text-center">Adam Hunt</h6>
+                    <h6 class="text-center">Business Coach</h6>
+                </div>
+                <div class="feedback">
+                    <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
+                </div>
+            </div>
+            <div class="review my-2 review2" data-aos="fade-up">
+                
+                
                 <div class="profile text-center">
                     <img src="Coelhopaulo.jpg">
                     <h6 class="text-center">Adam Hunt</h6>
@@ -483,6 +499,12 @@
         </div>
     </footer>
     <script src="books.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            duration: 1000,
+        });
+    </script>
     
 </body>
 </html>

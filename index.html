@@ -8,20 +8,17 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500&display=swap" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
 </head>
 <body>
     <header id="header">
-        <div class="container-fluid">
+        <div class="nav-menu-container">
 
             <!-- Nav Menu -->
 
-            <nav class="navbar navbar-expand-lg">
+            <nav class="navbar navbar-expand-lg nav-menu">
                 <a class="navbar-brand" href="#">bookish</a>
                 <button class="navbar-toggler hamburger" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <i class="fa fa-bars" aria-hidden="true"></i>
@@ -50,6 +47,8 @@
         <!-- Header Main Heading -->
 
         <div class="header-content text-center">
+            <input class="header-search" type="text" placeholder="Search your favourite...">
+            <button class="btn btn-dark search-btn"><i class="fa fa-search" aria-hidden="true"></i></button>
             <h1 class="text-center">A Book can change your life</h1>
             <h6 class="text-center">Read-Listen-Learn-Repeat</h6>
             <button class="btn btn-dark">Get Started</button>
@@ -199,14 +198,14 @@
 
           <!-- Books Collection -->
 
-          <div class="container book-collection">
+          <div class="container book-collection" data-aos="zoom-in">
               
               <div class="book-card self-help nap-hill">
                   <div class="book-image">
-                      <img src="Fooled-by-Randomness.jpg" data-aos="flip-right">
+                      <img src="Fooled-by-Randomness.jpg">
                   </div>
                   <div class="book-info">
-                    <h6 class="text-center">Rework</h6>
+                    <h6 class="text-center">Fooled-by-Randomness</h6>
                     <h6 class="text-center">by Napolean Hill</h6>
                     <button class="btn btn-success">Read</button>
                 
@@ -214,10 +213,10 @@
               </div>
               <div class="book-card self-help adam-hunt">
                 <div class="book-image">
-                    <img src="mindsight.jpg" data-aos="flip-right">
+                    <img src="mindsight.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Adam Hunt</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -225,10 +224,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="7-habits-of-highly-effective-people.png" data-aos="flip-right">
+                    <img src="7-habits-of-highly-effective-people.png">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -236,10 +235,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="The-48-Laws-of-Power.jpg" data-aos="flip-right">
+                    <img src="The-48-Laws-of-Power.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -247,10 +246,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="Whatcha-Gonna-Do-with-That-Duck-.jpg" data-aos="flip-right">
+                    <img src="Whatcha-Gonna-Do-with-That-Duck-.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -258,10 +257,10 @@
             </div>
             <div class="book-card self-help john-snow">
                 <div class="book-image">
-                    <img src="The-Psychedelic-Explorer’s-Guide.jpg" data-aos="flip-right">
+                    <img src="The-Psychedelic-Explorer’s-Guide.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by John Snow</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -269,10 +268,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="the-attention-revolution.jpg" data-aos="flip-right">
+                    <img src="the-attention-revolution.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -280,10 +279,10 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="philosophy-for-life.jpeg" data-aos="flip-right">
+                    <img src="philosophy-for-life.jpeg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by John Snow</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -291,10 +290,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="mans-search-for-meaning.jpg" data-aos="flip-right">
+                    <img src="mans-search-for-meaning.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -302,10 +301,10 @@
             </div>
             <div class="book-card business nap-hill">
                 <div class="book-image">
-                    <img src="feeling-good.jpg" data-aos="flip-right">
+                    <img src="feeling-good.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -313,10 +312,10 @@
             </div>
             <div class="book-card self-help nap-hill">
                 <div class="book-image">
-                    <img src="7-habits-of-highly-effective-people.png" data-aos="flip-right">
+                    <img src="7-habits-of-highly-effective-people.png">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Fooled-by-Randomness</h6>
                   <h6 class="text-center">by Napolean Hill</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -324,7 +323,7 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="rework.jpg" data-aos="flip-right">
+                    <img src="rework.jpg">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Rework</h6>
@@ -335,10 +334,10 @@
             </div>
             <div class="book-card business adam-hunt">
                 <div class="book-image">
-                    <img src="100startup.jpg" data-aos="flip-right">
+                    <img src="100startup.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">The 100$ Startup</h6>
                   <h6 class="text-center">by Adam Hunt</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -346,7 +345,7 @@
             </div>
             <div class="book-card web-dev nap-hill">
                 <div class="book-image">
-                    <img src="clean code.jpg" data-aos="flip-right">
+                    <img src="clean code.jpg">
                 </div>
                 <div class="book-info">
                   <h6 class="text-center">Clean Code</h6>
@@ -357,10 +356,10 @@
             </div>
             <div class="book-card web-dev adam-hunt">
                 <div class="book-image">
-                    <img src="javas.jpg" data-aos="flip-right">
+                    <img src="javas.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Eloquent JS</h6>
+                  <h6 class="text-center">Eloquent Javascript</h6>
                   <h6 class="text-center">by Adam Hunt</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -368,10 +367,10 @@
             </div>
             <div class="book-card web-dev adam-hunt">
                 <div class="book-image">
-                    <img src="programatic.jpg" data-aos="flip-right">
+                    <img src="programatic.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">The Programatic</h6>
+                  <h6 class="text-center">The Programatic Programmer</h6>
                   <h6 class="text-center">by Adam Hunt</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -379,10 +378,10 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="0to1.jpg" data-aos="flip-right">
+                    <img src="0to1.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Zero to One</h6>
                   <h6 class="text-center">by John Snow</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -390,10 +389,10 @@
             </div>
             <div class="book-card business john-snow">
                 <div class="book-image">
-                    <img src="rework.jpg" data-aos="flip-right">
+                    <img src="rework.jpg">
                 </div>
                 <div class="book-info">
-                  <h6 class="text-center">Rework</h6>
+                  <h6 class="text-center">Zero to One</h6>
                   <h6 class="text-center">by John Snow</h6>
                   <button class="btn btn-success">Read</button>
               
@@ -404,15 +403,15 @@
           <!-- Qualities Section -->
 
           <div class="container qualities">
-            <div class="quality1" data-aos="fade-up">
+            <div class="quality1">
                 <img src="09.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
             </div>
-            <div class="quality1" data-aos="fade-up">
+            <div class="quality1">
                 <img src="clock.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
             </div>
-            <div class="quality1" data-aos="fade-up">
+            <div class="quality1">
                 <img src="8774.jpg">
                 <h5 class="text-center">Learn Professional fo over 70 leading creative application</h5>
             </div>
@@ -422,7 +421,7 @@
           <div class="container testimonial-grid" id="testimonial">
             <h3 class="text-center">Testimonials</h3>
             <hr>
-            <div class="review my-2 review1" data-aos="fade-up">
+            <div class="review my-2 review1">
                 <div class="profile text-center">
                     <img src="Coelhopaulo.jpg">
                     <h6 class="text-center">Adam Hunt</h6>
@@ -432,7 +431,7 @@
                     <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
                 </div>
             </div>
-            <div class="review my-2 review2" data-aos="fade-up">
+            <div class="review my-2 review2">
                 
                 
                 <div class="profile text-center">
@@ -444,7 +443,7 @@
                     <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
                 </div>
             </div>
-            <div class="review my-2 review3" data-aos="fade-up">
+            <div class="review my-2 review3">
                 <div class="profile text-center">
                     <img src="victor.jpg">
                     <h6 class="text-center">Adam Hunt</h6>
@@ -454,7 +453,7 @@
                     <p class="text-left">"Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusamus nemo accusantium reiciendis amet obcaecati consequatur laborum"</p>
                 </div>
             </div>
-            <div class="review my-2 review2" data-aos="fade-up">
+            <div class="review my-2 review2">
                 
                 
                 <div class="profile text-center">
@@ -473,26 +472,30 @@
     <footer>
         <div class="container">
             <div class="row footer-sections">
-                <div class="col-sm-4 footer-links">
-                    <h5 class="text-center">Explore</h5>
-                    <a class="text-center" href="#header">Home</a>
-                    <a class="text-center" href="#books">Books</a>
-                    <a class="text-center" href="#">Terms & Coditions</a>
+                <div class="news-letter">
+                    <h6 class="text-left">Stay Connected</h6>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur temporibus explicabo libero! Distinctio, in quod.</p>
+
+                    <input class="header-search" type="text" placeholder="Enter your email...">
+                    <button class="btn btn-dark search-btn"><i class="fa fa-paper-plane" aria-hidden="true"></i></i></button><br>
+                    <i class="fa fa-facebook social" aria-hidden="true"></i>
+                    <i class="fa fa-twitter social" aria-hidden="true"></i>
+                    <i class="fa fa-instagram social" aria-hidden="true"></i>
+                    <i class="fa fa-linkedin social" aria-hidden="true"></i>
                 </div>
-                <div class="col-sm-3 footer-links">
-                    <h5 class="text-center">Contact</h5>
-                    <a class="text-center" href="#">9899898985</a>
-                    <a class="text-center" href="#">xyz5@gmail.com</a>
-                    <a class="text-center" href="#">New York, USA</a>
+                <div class="footer-links">
+                    <h6 class="text-left">Explore</h6>
+                    <a class="text-left" href="#header">Home</a>
+                    <a class="text-left" href="#books">Books</a>
+                    <a class="text-left" href="#">Terms & Coditions</a>
                 </div>
-                <div class="col-sm-4 footer-books">
-                    <div class="book-image">
-                        <img src="rework.jpg">
-                    </div>
-                    <div class="book-image">
-                        <img src="0to1.jpg">
-                    </div>
+                <div class="contact">
+                    <h6 class="text-left" >Contact</h6>
+                    <a class="text-left" href="#"><i class="fa fa-phone" aria-hidden="true"></i>9899898985</a>
+                    <a class="text-left" href="#"><i class="fa fa-envelope-o" aria-hidden="true"></i>xyz5@gmail.com</a>
+                    <a class="text-left" href="#"><i class="fa fa-map-marker" aria-hidden="true"></i>New York, USA</a>
                 </div>
+                
             </div>
             <hr>
             <h6 class="text-center copyright">Copyright©2020, All rights Reserved</h6>
@@ -505,6 +508,11 @@
             duration: 1000,
         });
     </script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    
     
 </body>
 </html>

@@ -559,6 +559,9 @@ i.social:hover{
     .news-letter h6{
         text-align: center !important;
     }
+    .news-letter p{
+        padding-right: 0;
+    }
     .news-letter input{
         width: 300px;
     }

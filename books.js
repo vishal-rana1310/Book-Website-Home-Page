@@ -1,9 +1,3 @@
-var download  = setInterval(totalDownloads, 10);
-var sold = setInterval(totalSold, 10);
-var customer = setInterval(happyCustomer, 10);
-var num1 = 1;
-var num2 = 1;
-var num3 = 1;
 const stars = document.querySelectorAll('.star');
 const star1 = document.querySelectorAll('.star1');
 const selfHelpBooks = document.querySelectorAll('.self-help');
@@ -15,6 +9,7 @@ const author2 = document.querySelectorAll('.john-snow');
 const categoryArr = ["self-help", "business", "web-dev", "adam-hunt", "john-snow", "nap-hill"];
 const author3 = document.querySelectorAll('.robert-downey');
 const all_Books = document.querySelectorAll('.book-card')
+
 
 //Star Ratings
 
@@ -54,31 +49,6 @@ function yoursRating(){
 
 
 //Achievement numbers
-
-function totalDownloads(){
-    num1++;
-    document.querySelector("#download").innerHTML = num1+"+";
-    //stops the counting
-    if(num1 == 300){
-        clearInterval(download);
-    }
-}
-function totalSold(){
-    num2++;
-    document.querySelector("#number1").innerHTML = num2+"+";
-    //stops the counting
-    if(num2 == 264){
-        clearInterval(sold);
-    }
-}
-function happyCustomer(){
-    num3++;
-    document.querySelector("#number3").innerHTML = num3+"+";
-    //stops the counting
-    if(num3 == 325){
-        clearInterval(customer);
-    }
-}
 
 //Book Category---->
 

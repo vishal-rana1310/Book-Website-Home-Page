@@ -382,11 +382,11 @@ footer{
 .footer-sections{
     display: flex;
     margin: auto;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-wrap: wrap;
 }
 .footer-links{
-    width: 30%;
+    width: 20%;
 }
 .footer-links h6{
     margin: 0 1rem 0 1rem;
@@ -414,10 +414,10 @@ h6.copyright{
     font-size: 12px;
 }
 .news-letter{
-    width: 40%;
+    width: 60%;
     margin: auto;
     justify-content: center;
-    padding: 0 4rem 0 4rem;
+    padding: 0 2rem 0 2rem;
 }
 .news-letter p{
     font-size: 12px;
@@ -446,7 +446,7 @@ i.social:hover{
 
 }
 .contact{
-    width: 30%;
+    width: 20%;
     display: block;
     margin: auto;
     float: left;

@@ -474,6 +474,38 @@ i.social:hover{
 
 }
 
+.signup{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    margin: 4rem 2rem 4rem 2rem;
+}
+.signup input{
+    width: 60%;
+    border: none;
+    border-radius: 0;
+    background: white;
+    height: 40px;
+    box-shadow: 3px 3px 5px 1px rgba(199, 199, 199, 0.5);
+    padding-left: 2rem;
+}
+.signup button{
+    width: 150px;
+    border: none;
+    border-radius: 0;
+    background: #ECB602;
+    color: white;
+    box-shadow: 3px 3px 5px 1px rgba(199, 199, 199, 0.5);
+    transition: .5s;
+    cursor: pointer;
+}
+.signup input:focus{
+    outline: none;
+}
+.signup button:hover{
+    transform: scale(1.02);
+}
+
 
  /* Media Queries */
 @media only screen and (max-width: 1050px){

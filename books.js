@@ -61,6 +61,7 @@ function allBooks(){
      if(element === "web-dev"){
          document.getElementById('web-dev').addEventListener('click', show3);
          function show3(){
+            document.getElementById('name').innerHTML = "Web Development";
             webD.forEach(elem => {
                 elem.style.display = "block";
                 console.log(elem);
@@ -76,6 +77,7 @@ function allBooks(){
      }else if(element === "business"){
         document.getElementById('business').addEventListener('click', show2);
         function show2(){
+           document.getElementById('name').innerHTML = "Business";
             webD.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -90,6 +92,7 @@ function allBooks(){
     }else if(element === "self-help"){
         document.getElementById('self-help').addEventListener("click", show);
         function show(){
+           document.getElementById('name').innerHTML = "Self Help";
 
             webD.forEach(elem => {
                 elem.style.display = "none";
@@ -104,7 +107,7 @@ function allBooks(){
     }else if(element === "adam-hunt"){
         document.getElementById('adam-hunt').addEventListener('click', adamHunt);
         function adamHunt(){
-
+            document.getElementById('name1').innerHTML = "Adam Hunt";
             author.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -118,7 +121,7 @@ function allBooks(){
     }else if(element === "nap-hill"){
         document.getElementById('nap-hill').addEventListener('click', napHill);
         function napHill(){
-
+            document.getElementById('name1').innerHTML = "Napolean Hill";
             author1.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -132,7 +135,7 @@ function allBooks(){
     }else{
         document.getElementById('john-snow').addEventListener('click', johnSnow);
         function johnSnow(){
-
+            document.getElementById('name1').innerHTML = "John Snow";
             author1.forEach(elem => {
                 elem.style.display = "none";
             });

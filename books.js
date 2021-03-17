@@ -55,6 +55,8 @@ function yoursRating(){
 function allBooks(){
      all_Books.forEach(element => {
          element.style.display = "block";
+         document.getElementById('name').innerHTML = "Book Category";
+         document.getElementById('name1').innerHTML = "Author";
      });
 }
  categoryArr.forEach(element => {
@@ -62,6 +64,7 @@ function allBooks(){
          document.getElementById('web-dev').addEventListener('click', show3);
          function show3(){
             document.getElementById('name').innerHTML = "Web Development";
+            document.getElementById('name1').innerHTML = "Author";
             webD.forEach(elem => {
                 elem.style.display = "block";
                 console.log(elem);
@@ -78,6 +81,7 @@ function allBooks(){
         document.getElementById('business').addEventListener('click', show2);
         function show2(){
            document.getElementById('name').innerHTML = "Business";
+           document.getElementById('name1').innerHTML = "Author";
             webD.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -93,6 +97,7 @@ function allBooks(){
         document.getElementById('self-help').addEventListener("click", show);
         function show(){
            document.getElementById('name').innerHTML = "Self Help";
+           document.getElementById('name1').innerHTML = "Author";
 
             webD.forEach(elem => {
                 elem.style.display = "none";
@@ -108,6 +113,7 @@ function allBooks(){
         document.getElementById('adam-hunt').addEventListener('click', adamHunt);
         function adamHunt(){
             document.getElementById('name1').innerHTML = "Adam Hunt";
+            document.getElementById('name').innerHTML = "Book Category";
             author.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -122,6 +128,7 @@ function allBooks(){
         document.getElementById('nap-hill').addEventListener('click', napHill);
         function napHill(){
             document.getElementById('name1').innerHTML = "Napolean Hill";
+            document.getElementById('name').innerHTML = "Book Category";
             author1.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -136,6 +143,7 @@ function allBooks(){
         document.getElementById('john-snow').addEventListener('click', johnSnow);
         function johnSnow(){
             document.getElementById('name1').innerHTML = "John Snow";
+            document.getElementById('name').innerHTML = "Book Category";
             author1.forEach(elem => {
                 elem.style.display = "none";
             });

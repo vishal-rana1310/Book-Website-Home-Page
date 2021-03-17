@@ -762,6 +762,12 @@ i.social:hover{
     .signup button{
     width: 110px;
     }
+    .signup input{
+        padding-left: 1rem;
+    }
+    .signup input::placeholder{
+        font-size: 13px;
+    }
 
 }
 @media only screen and (max-width: 400px){

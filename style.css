@@ -759,6 +759,9 @@ i.social:hover{
     .news-letter input{
         width: 200px;
     }
+    .signup button{
+    width: 110px;
+    }
 
 }
 @media only screen and (max-width: 400px){

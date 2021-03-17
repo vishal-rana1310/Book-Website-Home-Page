@@ -56,7 +56,7 @@ function allBooks(){
      all_Books.forEach(element => {
          element.style.display = "block";
          document.getElementById('name').innerHTML = "Book Category";
-         document.getElementById('name1').innerHTML = "Author";
+         document.getElementById('name1').innerHTML = "Book Author";
      });
 }
  categoryArr.forEach(element => {
@@ -64,7 +64,7 @@ function allBooks(){
          document.getElementById('web-dev').addEventListener('click', show3);
          function show3(){
             document.getElementById('name').innerHTML = "Web Development";
-            document.getElementById('name1').innerHTML = "Author";
+            document.getElementById('name1').innerHTML = "Book Author";
             webD.forEach(elem => {
                 elem.style.display = "block";
                 console.log(elem);
@@ -81,7 +81,7 @@ function allBooks(){
         document.getElementById('business').addEventListener('click', show2);
         function show2(){
            document.getElementById('name').innerHTML = "Business";
-           document.getElementById('name1').innerHTML = "Author";
+           document.getElementById('name1').innerHTML = "Book Author";
             webD.forEach(elem => {
                 elem.style.display = "none";
             });
@@ -97,7 +97,7 @@ function allBooks(){
         document.getElementById('self-help').addEventListener("click", show);
         function show(){
            document.getElementById('name').innerHTML = "Self Help";
-           document.getElementById('name1').innerHTML = "Author";
+           document.getElementById('name1').innerHTML = "Book Author";
 
             webD.forEach(elem => {
                 elem.style.display = "none";
